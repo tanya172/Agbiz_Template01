@@ -1,0 +1,44 @@
+h1{
+    text-align:center;
+    color:white;
+    padding-bottom:-40px;
+    line-height:4.0
+}
+hr{
+    height:2px;
+    background-color:rgb(50,50,50);
+    margin-top:-40px;
+}
+body{
+    background-color:rgb(50,50,50);
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* changed from space-between */
+    max-width: 1000px; /* added to limit container width */
+    margin: 0 auto; /* added to center container horizontally */
+  }
+  
+  .card {
+    
+    width: 35%; /* decreased from 30% */
+    height: -60%; /* changed from 5% */
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 -10px 7px -7px grey inset;
+    margin-bottom: 10px;
+  }
+  
+  .left-card {
+    margin-right: 10%;
+    
+  }
+  
+  .right-card {
+    margin-left: 10%;
+  
+  }
+  
